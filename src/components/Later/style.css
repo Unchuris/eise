@@ -1,0 +1,106 @@
+.checkbox-list-c {
+  display: inline;
+  padding-right: 36px;
+  padding-top: 10px;
+  position: relative;
+  top: 5px;
+  width: 36px;
+  height: 36px;
+  background: url(../images/check1.png) no-repeat;
+}
+.name-text {
+  display: inline-block;
+  margin-left: 25px;
+}
+.form_submit-star {
+  display: inline-block;
+  width: 35px;
+  height: 33px;
+  float: right;
+  position: relative;
+  right: 125px;
+  top: 4px;
+}
+.checkbox-star {
+  vertical-align: top;
+  margin: 0 3px 0 0;
+  width: 17px;
+  height: 17px;
+}
+.checkbox-star + label {
+  cursor: pointer;
+  color: #787878;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.checkbox-star:not(checked) {
+  position: absolute;
+  opacity: 0;
+}
+.checkbox-star:not(checked) + label {
+  position: relative; 
+  padding: 0 0 0 65px; 
+}
+.checkbox-star:not(checked) + label:before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: 7px;
+  width: 36px;
+  height: 36px;
+  background: url(../images/web-mark-as-favorite-star.png) no-repeat;
+}
+.checkbox-star:not(checked) + label:after {
+
+}
+.checkbox-star:checked + label:before {
+  background: url(../images/mark-as-favorite-star-1.png) no-repeat;
+}
+.checkbox-star:checked + label:after {
+}
+.checkbox-star:focus + label:before {
+}
+.form_submit-img-star {
+  display: inline-block;
+  width: 35px;
+  height: 34px;
+  float: right;
+  background-image: url(../images/web-mark-as-favorite-star.png);
+  position: relative;
+  right: 125px;
+  top: 0px;
+}
+input[type="text"]::-webkit-input-placeholder {
+    color: #b0b0b0;
+} 
+input[type="text"]::-moz-placeholder {
+    color: #b0b0b0;
+}
+.form__submit-del {
+  color: #787878;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+  display: inline-block; 
+  float: right;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  top: -5px;
+  right: 40px;
+}
+.form__submit-del {
+  cursor: pointer;
+  position: relative;
+  top: -4px;
+  right: -55px;
+}
+.hr__today {
+  width: 860px;
+  height: 2px;
+  background-color: #dedede;
+  margin-top: 34px;
+  margin-bottom: 34px;
+}

@@ -1,0 +1,69 @@
+/*---------------->HEADER<----------------*/
+.header__nav {
+  margin: 0 auto;
+  display: inline-block;
+  width: 1004px;
+  margin-left: 282px;
+  margin-top: 23px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+.nav__ref-line {
+  border-bottom: 3px solid white;
+  padding-bottom: 12px;
+}
+.nav__ref {
+  color: inherit;
+  text-decoration: none;
+  margin-right: 150px;
+}
+.nav__ref:hover{
+  border-bottom: 3px solid white;
+  padding-bottom: 12px;
+}
+.nav__ref:active{
+    border: none;
+}
+
+.header {
+  width: 1448px;
+  height: 180px;
+  background-image: url(../../../images/header-photo.jpg);
+  margin: 0 auto;
+}
+
+.header__internal {
+  margin: 0 auto;
+  width: 1004px;
+  padding-top: 45px;
+  height: 70px;
+}
+
+.header__logo {
+  text-decoration: none;
+  padding-left: 61px;
+  padding-top: 10px;
+  float: left;   
+}
+
+.header__user {  
+  font-family: 'Open Sans', sans-serif; 
+  float: right;    
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  padding-top: 11px;
+  padding-right: 20px;
+}
+
+.header__user-img {
+  margin-right: 60px;
+  margin-top: -10px;
+  float: right; 
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: url(../../../images/photo.jpg);
+}

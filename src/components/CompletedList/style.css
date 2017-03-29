@@ -1,0 +1,22 @@
+.form__completed-list {
+  font-family: 'Open Sans', sans-serif; 
+  font-size: 20px;
+  font-weight: 400;
+  color: black;
+  margin-bottom: 20px;
+}
+.form__img-check {
+  width: 37px;
+  height: 37px;
+  display: inline-block;
+  padding-right: 45px;
+  position: relative;
+  top: 10px;
+  background: url(../images/checked1.png) no-repeat;
+}
+.hr {
+  width: 860px;
+  height: 2px;
+  background-color: #dedede;
+  margin-top: 20px;
+}

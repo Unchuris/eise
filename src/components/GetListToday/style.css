@@ -1,0 +1,99 @@
+.form__completed-list-today {
+  font-family: 'Open Sans', sans-serif; 
+  font-size: 20px;
+  font-weight: 400;
+  color: black;
+  margin-bottom: 20px;
+}
+.checkbox-list {
+  vertical-align: top;
+  margin: 0 3px 0 0;
+  width: 17px;
+  height: 17px;
+}
+.checkbox-list + label {
+  cursor: pointer;
+  color: #787878;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.checkbox-list:not(checked) {
+  position: absolute;
+  opacity: 0;
+}
+.checkbox-list:not(checked) + label {
+  position: relative; 
+  padding: 0 0 0 65px; 
+}
+.checkbox-list:not(checked) + label:before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: 7px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: white;
+  border: 1px solid #ff9e13;
+}
+.checkbox-list:not(checked) + label:after {
+
+}
+.checkbox-list:checked + label:before {
+  background: url(../images/checked-list1.png) no-repeat;
+}
+.checkbox-list:checked + label:after {
+}
+.checkbox-list:focus + label:before {
+}
+.name-text {
+  display: inline-block;
+  margin-left: 25px;
+}
+.form_submit-img-list {
+  display: inline-block;
+  width: 35px;
+  height: 33px;
+  float: right;
+  background-image: url(../images/files-transit.png);
+  position: relative;
+  right: 125px;
+  top: 0px;
+}
+.form_submit-img-del {
+  display: inline-block;
+  width: 27px;
+  height: 34px;
+  float: right;
+  background-image: url(../images/delete-button.png);
+  margin-right: 25px;
+}
+.form__submit-del,
+.form__submit-execute {
+  color: #787878;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+  display: inline-block; 
+  float: right;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  top: -5px;
+  right: 40px;
+}
+.form__submit-del {
+  cursor: pointer;
+  position: relative;
+  top: -4px;
+  right: -55px;
+}
+.hr__today {
+  width: 860px;
+  height: 2px;
+  background-color: #dedede;
+  margin-top: 34px;
+  margin-bottom: 34px;
+}

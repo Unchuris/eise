@@ -1,0 +1,22 @@
+body{
+    padding:0px; margin:0px; background: white; color:#869496;
+}
+.block-completed-list {
+  margin: 0 auto;
+  padding-left: 50px;
+  padding-top: 20px;
+}
+.block-content-component {
+  margin: 0 auto;
+  width: 963px;
+  padding-top: 40px;
+}
+.scrollbar {
+  overflow: auto;
+  scrollbar-arrow-color: #fff; 
+  scrollbar-base-color: #ffa12d; 
+  scrollbar-shadow-color: #fed189; 
+  scrollbar-highlight-color: #fff; 
+  background: transparent; 
+  height: 420px; 
+}

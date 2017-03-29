@@ -1,0 +1,19 @@
+body{
+    padding:0px; margin:0px; background: white; color:#869496;
+}
+.block-content {
+  margin: 0 auto;
+  width: 963px;
+  padding-top: 40px;
+}
+.block-content__form {
+  margin-left: 65px;
+}
+.block-content__forLater {
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+
+
+

@@ -1,0 +1,35 @@
+.form__add {
+  width: 830px;
+  height: 78px;
+  background-color: white;
+  border: 1px solid #dedede;
+  box-shadow: 2.9px 4.1px 4px rgba(0, 0, 0, 0.08);
+  padding-left: 30px;
+  color: #b0b0b0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.form_submit-img {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-image: url(../images/add.png);
+  position: relative;
+  right: 165px;
+  top: 3px;
+}
+.form__submit {
+  color: #787878;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  display: inline-block; 
+  float: right;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  top: -55px;
+  right: 75px;
+}

@@ -1,0 +1,29 @@
+body{
+    padding:0px; margin:0px; background: white; color:#869496;
+}
+
+.block-content {
+  margin: 0 auto;
+  width: 963px;
+  padding-top: 40px;
+}
+.block-content__form {
+  margin-left: 65px;
+}
+
+.hr__today-1 {
+  width: 860px;
+  height: 2px;
+  background-color: #dedede;
+  margin-top: 35px;
+  margin-bottom: 34px;
+}
+.scrollbar-today {
+  overflow: auto;
+  scrollbar-arrow-color: #fff; 
+  scrollbar-base-color: #ffa12d; 
+  scrollbar-shadow-color: #fed189; 
+  scrollbar-highlight-color: #fff; 
+  background: transparent; 
+  height: 350px; 
+}
